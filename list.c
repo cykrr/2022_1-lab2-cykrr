@@ -52,11 +52,13 @@ void * nextList(List * list) {
 void * lastList(List * list) {
 	Node* tmp;
 	for(tmp = list->head; tmp != NULL; tmp = tmp->next);
+	list->current = tmp;
     return tmp;
 }
 
 void * prevList(List * list) {
-    return NULL;
+	list->current = list->current->prev;
+    return list->current->prev;
 }
 
 void pushFront(List * list, void * data) {
