@@ -44,3 +44,9 @@ Thu Mar 17 11:47:38 -03 2022:
  tests:  0|0
 
 b5c0eca
+Thu Mar 17 11:48:10 -03 2022: 
+ list.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  1|5
+total_score: 10/70
+c5939e9

@@ -53,12 +53,12 @@ void * lastList(List * list) {
 	Node* tmp;
 	for(tmp = list->head; tmp != NULL; tmp = tmp->next);
 	list->current = tmp;
-    return tmp->data;
+    return tmp;
 }
 
 void * prevList(List * list) {
 	list->current = list->current->prev;
-    return list->current->prev->data;
+    return list->current->prev;
 }
 
 void pushFront(List * list, void * data) {
@@ -66,7 +66,7 @@ void pushFront(List * list, void * data) {
 	if(!list->head)
 		list->head = new;
 	new->next = list->head;
-	list->head = new;
+	list->head = list->head;
 }
 
 
