@@ -54,7 +54,7 @@ void * nextList(List * list) {
 
 void * lastList(List * list) {
 	Node* tmp;
-	for(tmp = list->head; tmp != NULL; tmp = tmp->next);
+	for(tmp = list->head; tmp->next != NULL; tmp = tmp->next);
 	list->current = tmp;
 	if (!tmp) return NULL;
     return tmp->data;
