@@ -263,3 +263,27 @@ Thu Mar 17 12:19:51 -03 2022:
  tests:  9|3
 total_score: 35/70
 63b15e5
+Thu Mar 17 12:20:34 -03 2022: 
+ list.c | 22 +++++++++-------------
+ 1 file changed, 9 insertions(+), 13 deletions(-)
+In file included from test.c:5:
+list.c: In function 'pushFront':
+list.c:79:2: error: expected '(' before '}' token
+   79 |  }
+      |  ^
+      |  (
+list.c: At top level:
+list.c:81:1: error: expected identifier or '(' before '}' token
+   81 | }
+      | ^
+list.c: In function 'pushBack':
+list.c:87:2: error: 'tmp' undeclared (first use in this function); did you mean 'tm'?
+   87 |  tmp->next->prev = new;
+      |  ^~~
+      |  tm
+list.c:87:2: note: each undeclared identifier is reported only once for each function it appears in
+list.c:87:20: error: 'new' undeclared (first use in this function)
+   87 |  tmp->next->prev = new;
+      |                    ^~~
+Compilation failed
+a24244e
