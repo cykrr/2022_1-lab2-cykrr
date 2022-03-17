@@ -242,3 +242,18 @@ Thu Mar 17 12:19:23 -03 2022:
  tests:  9|3
 total_score: 35/70
 b267f89
+Thu Mar 17 12:19:40 -03 2022: 
+ list.c | 13 ++++++++-----
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+list.c: In function 'pushFront':
+list.c:81:2: error: expected '(' before '}' token
+   81 |  }
+      |  ^
+      |  (
+list.c: At top level:
+list.c:83:1: error: expected identifier or '(' before '}' token
+   83 | }
+      | ^
+Compilation failed
+a35316a
