@@ -187,3 +187,9 @@ Thu Mar 17 12:10:02 -03 2022:
  1 file changed, 1 insertion(+)
  tests:  8|0
    [ INFO ] llamando a prevListdfc80aa
+Thu Mar 17 12:10:13 -03 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+
+e383d4a
