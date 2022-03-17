@@ -57,6 +57,7 @@ void * lastList(List * list) {
 	Node* tmp = list->head;
 	while (tmp->next != NULL)
 		tmp = tmp->next;
+	list->current = tmp;
     return tmp->data;
 }
 
