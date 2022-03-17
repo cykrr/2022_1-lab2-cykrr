@@ -50,7 +50,9 @@ void * nextList(List * list) {
 }
 
 void * lastList(List * list) {
-    return NULL;
+	Node* tmp;
+	for(tmp = list->head; tmp != NULL; tmp = tmp->next);
+    return tmp;
 }
 
 void * prevList(List * list) {
