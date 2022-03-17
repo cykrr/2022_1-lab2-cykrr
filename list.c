@@ -53,10 +53,10 @@ void * nextList(List * list) {
 }
 
 void * lastList(List * list) {
-	Node* tmp;
-	for(tmp = list->head; tmp->next != NULL; tmp = tmp->next);
-	list->current = tmp;
-	if (!tmp) return NULL;
+	if(!list->head) return NULL;
+	Node* tmp = list->head;
+	while (tmp->next != NULL)
+		tmp = tmp->next;
     return tmp->data;
 }
 
@@ -93,7 +93,7 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
-    return NULL;
+	return NULL;
 }
 
 void cleanList(List * list) {
