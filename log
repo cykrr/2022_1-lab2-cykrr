@@ -257,3 +257,9 @@ list.c:83:1: error: expected identifier or '(' before '}' token
       | ^
 Compilation failed
 a35316a
+Thu Mar 17 12:19:51 -03 2022: 
+ list.c | 13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+ tests:  9|3
+total_score: 35/70
+63b15e5
