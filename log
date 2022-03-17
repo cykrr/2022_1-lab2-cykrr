@@ -2,3 +2,9 @@ Thu Mar 17 11:29:56 -03 2022:
  tests:  0|6
 total_score: 0/70
 10fa342
+Thu Mar 17 11:32:59 -03 2022: 
+ list.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+7654155
