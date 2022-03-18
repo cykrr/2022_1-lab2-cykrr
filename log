@@ -297,3 +297,14 @@ Thu Mar 17 21:26:47 -03 2022:
  tests:  9|3
 total_score: 35/70
 fcdee8a
+Thu Mar 17 21:33:24 -03 2022: 
+ list.c | 10 +---------
+ 1 file changed, 1 insertion(+), 9 deletions(-)
+In file included from test.c:5:
+list.c: In function 'pushFront':
+list.c:70:15: error: unused variable 'new' [-Werror=unused-variable]
+   70 |         Node *new = createNode(data);
+      |               ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+683f772
