@@ -109,9 +109,9 @@ void * popCurrent(List * list) {
     Node *tmp = list->current;
     if (tmp->prev){
         tmp->prev->next = tmp->next;
-        tmp->next->prev = tmp->prev;
     }
-
+    if(tmp->next)
+        tmp->next->prev = tmp->prev;
     if(list->head == tmp)
         list->head = tmp->next;
     return tmp->data;
