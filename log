@@ -443,3 +443,14 @@ Thu Mar 17 22:05:40 -03 2022:
  tests:  11|1
 total_score: 55/70
 7f38ca2
+Thu Mar 17 22:06:57 -03 2022: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function 'popCurrent':
+list.c:115:1: error: control reaches end of non-void function [-Werror=return-type]
+  115 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+b6e59a9
