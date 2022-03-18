@@ -70,6 +70,8 @@ void pushFront(List * list, void * data) {
 	Node *new = createNode(data);
         if(!list->head)
             list->head = new;
+        if(!list->tail)
+            list->tail = new;
 }
 
 
