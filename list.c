@@ -107,6 +107,8 @@ void * popBack(List * list) {
 
 void * popCurrent(List * list) {
     Node *tmp = list->current;
+    tmp->prev->next = tmp->next;
+    tmp->next->prev = tmp->prev;
     return tmp->data;
 
 }
