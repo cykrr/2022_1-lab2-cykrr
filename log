@@ -363,3 +363,9 @@ list.c:90:15: error: unused variable 'tmp' [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 2bead75
+Thu Mar 17 21:54:57 -03 2022: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  10|2
+total_score: 45/70
+d1f3118
