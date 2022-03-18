@@ -308,3 +308,9 @@ list.c:70:15: error: unused variable 'new' [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 683f772
+Thu Mar 17 21:43:19 -03 2022: 
+ list.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+4b62d2d
