@@ -408,3 +408,9 @@ Thu Mar 17 22:03:29 -03 2022:
  1 file changed, 1 insertion(+)
  tests:  0|0
 014045e
+Thu Mar 17 22:03:38 -03 2022: 
+ list.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+b068f0e
