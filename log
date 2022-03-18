@@ -352,3 +352,14 @@ list.c:89:15: error: unused variable 'new' [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 0c8aa12
+Thu Mar 17 21:54:46 -03 2022: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function 'pushCurrent':
+list.c:90:15: error: unused variable 'tmp' [-Werror=unused-variable]
+   90 |         Node *tmp = list->current;
+      |               ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+2bead75
