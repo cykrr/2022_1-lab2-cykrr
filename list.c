@@ -113,7 +113,7 @@ void * popCurrent(List * list) {
     }
 
     if(list->head == tmp)
-        list->head = tmp->next;
+        list->head = tmp->prev;
     return tmp->data;
 }
 
